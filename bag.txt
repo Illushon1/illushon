@@ -1,0 +1,10 @@
+ID
+Title
+Priority
+Environment
+Description
+Steps
+Severity
+Expected result
+Actual result
+Status
