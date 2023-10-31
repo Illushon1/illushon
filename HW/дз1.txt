@@ -1,0 +1,101 @@
+Посмотреть где я : pwd
+Создать папку mkdir First
+Зайти cd C:\First
+Создать 3 папки : mkdir 1, mkdir 2, mkdir 3
+Зайти в любую папку: cd /c/First/3
+
+Создать 5 файлов: touch файл.txt, touch файл1.txt, touch файл2.txt, touch file1.json, touch file2.json
+
+Создать 3 папки  mkdir 12, mkdir 13, mkdir 14.
+
+Вывести список содержимого папки ls
+
+Открыть любой txt файл : cat файл.txt
+
+Написать туда дюбой текст : vi файл.txt
+
+В редакторе нажать I ввести текст, нажать esc ввести команду :wq
+
+Выйти из папки на уровень выше : cd /c/first
+
+Переместить любые 2 файла mv "C:\First\3\file2.json" "C:\First\3\12\file2.json"
+mv "C:\First\3\file1.json" "C:\First\3\12\file1.json"
+
+Скопируйте любые 2 файла: cp "C:\First\3\файл2.txt" "C:\First\3\файл.txt" "C:\First\3\14"
+
+Поиск файла по имени find . -name '*txt'
+./3/14/файл.txt
+./3/14/файл2.txt
+./3/файл.txt
+./3/файл1.txt
+./3/файл2.txt
+
+Просмотр содержимого команда grep
+ $ grep w "C:\First\3\файл.txt"
+qwer124124
+wq
+
+Вывести несколько первых и последних строк head "C:\First\3\файл.txt"
+qwer124124
+1234512351253
+wq
+кервар
+2345
+rfthrth
+rthrtyhtd
+yumuim
+3456256
+jhgkmmhm
+
+Artem@DESKTOP-9MS7558 MINGW64 /c/first/3
+$ tail "C:\First\3\файл.txt"
+jhgkmmhm
+stfdhrdjted
+strhtyjyuk
+fgjhdjy7t
+w454256
+fjghmfyujyu
+dfyjdtyjdtuyjkukhxft
+w4dtyjudtyjdty56ysd
+srtjutd7yjdd
+e56uyerdsr
+
+Просмторт длинного файла less -a "C:\First\3\файл.txt"
+
+[1]+  Stopped                 less -a "C:\First\3\файл.txt"
+
+Вывести дату и время date +"%A %d %B"
+Tuesday 13 June
+date +%::z
++04:00:00
+Создание запроса 
+curl http://162.55.220.72:5006/terminal-hw-request
+{
+  "Intro": "Hello!! This is your the first response from server",
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_meth
+od?name=(set_your_String)&age=(set_your_number)",
+    "result": [
+      "Your_String",
+      "Your_number"
+    ]
+  }
+}
+
+
+
+
+$ curl http://162.55.220.72:5005/get_method?name=Ilya&age=28
+[1] 721
+
+Artem@DESKTOP-9MS7558 MINGW64 ~
+$ [
+  "Ilya",
+  null
+
+
+
+
+
+
+
